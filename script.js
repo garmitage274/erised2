@@ -21,7 +21,7 @@ startBtn.addEventListener("click", () => {
     slideshow.style.display = "block";
     currentIndex = 0;
     showImage();
-    slideshowInterval = setInterval(nextImage, 10000);
+    slideshowInterval = setInterval(nextImage, 5000);
 });
 
 function showImage() {
